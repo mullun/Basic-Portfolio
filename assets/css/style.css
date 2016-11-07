@@ -98,7 +98,9 @@ hr.style7 {
 	float: left;
 	margin:20px;
 	background-image: url("../images/200.jpg"); 
-	background-size: 150px 200px;
+	background-size: 200%;
+	background-position: center center;
+	background-repeat: no-repeat;
 	width:150px; 
 	height:200px;
 }
@@ -107,8 +109,9 @@ hr.style7 {
 	float: left;
 	margin:20px;
 	background-image: url("../images/battleShip.jpg"); 
-	background-size: 150px 200px;
-	width:150px; 
+	background-size: 200%;
+	background-position: center center;
+	background-repeat: no-repeat;	width:150px; 
 	height:200px;
 }
 
@@ -116,8 +119,9 @@ hr.style7 {
 	float: left;
 	margin:20px;
 	background-image: url("../images/hangMan.jpg"); 
-	background-size: 150px 200px;
-	width:150px; 
+	background-size: 200%;
+	background-position: center center;
+	background-repeat: no-repeat;	width:150px; 
 	height:200px;
 }
 
@@ -125,8 +129,9 @@ hr.style7 {
 	float: left;
 	margin:20px;
 	background-image: url("../images/rockPaperScissors.jpg"); 
-	background-size: 150px 200px;
-	width:150px; 
+	background-size: 200%;
+	background-position: center center;
+	background-repeat: no-repeat;	width:150px; 
 	height:200px;
 }
 
@@ -134,7 +139,9 @@ hr.style7 {
 	float: left;
 	margin:20px;
 	background-image: url("../images/rpgGame.jpg"); 
-	background-size: 150px 200px;
+	background-size: 200%;
+	background-position: center center;
+	background-repeat: no-repeat;	width:150px; 
 	width:150px; 
 	height:200px;
 }
