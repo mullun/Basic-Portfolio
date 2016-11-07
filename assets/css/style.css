@@ -32,7 +32,7 @@
 
 }
 
-#mainContainer {
+#mainContainer {    /* box to hold all the portfolio images  */
 	width: 50%;
 	overflow: auto;
 	text-align: left;
@@ -80,9 +80,88 @@ hr.style7 {
 #contactDiv {
 	width: 25%;
 	float: left;
-	background-color: orange;
+	background-color: white;
 	margin-top: 35px;
 	margin-left: 50px;
+}
+
+.portImageContainer {   /* box to hold one portfolo image and its text */
+	float: left;
+	margin:20px;
+	/*background-image: url("../images/200.jpg"); */
+	background-color: orange;
+	width:150px; 
+	height:200px;
+}
+
+.portImageContainerOne {   /* box to hold one portfolo image and its text */
+	float: left;
+	margin:20px;
+	background-image: url("../images/200.jpg"); 
+	background-size: 150px 200px;
+	width:150px; 
+	height:200px;
+}
+
+.portImageContainerTwo {   /* box to hold one portfolo image and its text */
+	float: left;
+	margin:20px;
+	background-image: url("../images/battleShip.jpg"); 
+	background-size: 150px 200px;
+	width:150px; 
+	height:200px;
+}
+
+.portImageContainerThree {   /* box to hold one portfolo image and its text */
+	float: left;
+	margin:20px;
+	background-image: url("../images/hangMan.jpg"); 
+	background-size: 150px 200px;
+	width:150px; 
+	height:200px;
+}
+
+.portImageContainerFour {   /* box to hold one portfolo image and its text */
+	float: left;
+	margin:20px;
+	background-image: url("../images/rockPaperScissors.jpg"); 
+	background-size: 150px 200px;
+	width:150px; 
+	height:200px;
+}
+
+.portImageContainerFive {   /* box to hold one portfolo image and its text */
+	float: left;
+	margin:20px;
+	background-image: url("../images/rpgGame.jpg"); 
+	background-size: 150px 200px;
+	width:150px; 
+	height:200px;
+}
+
+.portImage {
+	float: left;
+	width: 150px;
+	height: 200px;
+    z-index: -1;
+}
+
+h4 {
+	color: #ffffff;
+	font-size: 20px;
+	background-color: #4aaaa5;
+	margin-top: 150px;
+}
+
+.portTitle {
+	color: #ffffff;
+	font-size: 20px;
+	position: relative; 
+   	top: 0px; 
+   	left: 0px;
+   	background-color: #4aaaa5;
+   	/*width: 100%; */
+   	z-index: 1;
 }
 
 .group:after {
@@ -90,9 +169,6 @@ hr.style7 {
   display: table;
   clear: both;
 }
-
-
-
 
 body {
 	background-image: url("../images/light_grey_floral_motif.png");
