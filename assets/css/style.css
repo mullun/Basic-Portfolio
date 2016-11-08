@@ -33,6 +33,12 @@
     background-color: #C2F2F0;
 }
 
+h4 a:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
 #navTop li {
 	list-style-type: none;
 	display: inline;
