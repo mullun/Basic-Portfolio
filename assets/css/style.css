@@ -4,6 +4,12 @@
   text-align: center;
 }
 
+#mainBackground {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 #topBanner {
 	background-color: white;
 	overflow: auto;
@@ -199,6 +205,9 @@ h4 {
 body {
 	background-image: url("../images/light_grey_floral_motif.png");
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 input[type=text], select {
@@ -251,7 +260,7 @@ hr.style8 {
 	color: #4aaaa5;
 	background-color: #4aaaa5;
 	height: 30px;
-	width: 90%;
+	width: 100%;
 }
 
 
@@ -260,9 +269,11 @@ hr.style8 {
 	background-color: #777777;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	width: 90%;
+	width: 100%;
 	margin-top: -29px;
 	float: left;
+	margin-left: auto;
+	margin-right: auto;
 	font-size: 8px;
 	color: #ffffff;
 
