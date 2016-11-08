@@ -24,12 +24,25 @@
 	margin-top: 25px;
 }
 
+#navTop a:link {
+	text-decoration: none;
+	color: #777777;
+}
+
+#navTop a:hover {
+    background-color: #C2F2F0;
+}
+
 #navTop li {
 	list-style-type: none;
 	display: inline;
 	padding: 16px;
-	background-color: grey;
+	background-color: #E6F2F2;
+	text-decoration: none;
+}
 
+#navTop li:hover {
+    background-color: #C2F2F0;
 }
 
 #mainContainer {    /* box to hold all the portfolio images  */
@@ -224,4 +237,27 @@ textarea {
 	border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+hr.style8 {
+	float: left;
+	margin-top: 30px;
+	color: #4aaaa5;
+	background-color: #4aaaa5;
+	height: 30px;
+	width: 90%;
+}
+
+
+#copyrightBar {
+	clear: both;
+	background-color: #777777;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 90%;
+	margin-top: -29px;
+	float: left;
+	font-size: 8px;
+	color: #ffffff;
+
 }
